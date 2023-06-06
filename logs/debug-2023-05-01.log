@@ -1,0 +1,53 @@
+2023-05-01 12:22:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-01 12:22:24 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-01 12:29:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-01 12:29:01 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/2023-05-01-12:31:43.pcap 
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fef0067c392class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=546)
+********************************************************************************
+0000:*ff ff ff ff  ff ff e4 aa  5d 13 e5 75  08 06 00 01    ........]..u....
+0010: 08 00 06 04  00 02 74 8f  3c 4c 74 7f  ac 1f dc 4a    ......t.<Lt...J
+0020: 74 8f 3c 4c  74 7f ac 1f  dc 4a                       t.<Lt...J      
+
+
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fef0067c392class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=546)
+********************************************************************************
+0000:*ff ff ff ff  ff ff e4 aa  5d 13 e5 75  08 06 00 01    ........]..u....
+0010: 08 00 06 04  00 02 88 b9  45 38 b3 3c  ac 1f ca bd    ........E8.<...
+0020: 88 b9 45 38  b3 3c ac 1f  ca bd                       ..E8.<...      
+
+
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fef0067c392class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=546)
+********************************************************************************
+0000:*ff ff ff ff  ff ff e4 aa  5d 13 e5 75  08 06 00 01    ........]..u....
+0010: 08 00 06 04  00 02 88 b9  45 8d 43 6a  ac 1f dc e3    ........E.Cj...
+0020: 88 b9 45 8d  43 6a ac 1f  dc e3                       ..E.Cj...      
+
+
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/2023-05-01-12:31:43.pcap
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 9
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 6
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:3 3 
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2023-05-01 12:31:50 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,3
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 3
+2023-05-01 12:31:50 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+

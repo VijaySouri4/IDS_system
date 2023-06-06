@@ -1,0 +1,1415 @@
+2023-05-06 16:50:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 16:50:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 16:50:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 16:50:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 16:50:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2023-05-06 16:50:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2023-05-06 16:50:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 80 65  7c dd 8a 2d* 86 dd 60 0b    33.....e|..-..`.
+0010: 08 00 01 a1  11 ff fe 80  00 00 00 00  00 00 04 6c    ...............l
+0020: 47 e1 d0 8d  0e 50 ff 02  00 00 00 00  00 00 00 00    G....P..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 01 a1  d8 e2 00 00    ................
+0040: 00 00 00 11  00 02 00 00  00 01 02 6c  62 07 5f 64    ...........lb._d
+0050: 6e 73 2d 73  64 04 5f 75  64 70 05 6c  6f 63 61 6c    ns-sd._udp.local
+0060: 00 00 0c 00  01 08 5f 61  69 72 70 6f  72 74 04 5f    ......_airport._
+0070: 74 63 70 c0  1c 00 0c 00  01 0d 5f 61  70 70 6c 65    tcp......._apple
+0080: 2d 6d 6f 62  64 65 76 c0  30 00 0c 00  01 08 39 35    -mobdev.0.....95
+0090: 36 65 30 38  31 31 04 5f  73 75 62 0e  5f 61 70 70    6e0811._sub._app
+00a0: 6c 65 2d 6d  6f 62 64 65  76 32 c0 30  00 0c 00 01    le-mobdev2.0....
+00b0: 0f 5f 61 70  70 6c 65 2d  70 61 69 72  61 62 6c 65    ._apple-pairable
+00c0: c0 30 00 0c  00 01 06 5f  75 73 63 61  6e c0 30 00    .0....._uscan.0.
+00d0: 0c 00 01 0f  5f 70 64 6c  2d 64 61 74  61 73 74 72    ...._pdl-datastr
+00e0: 65 61 6d c0  30 00 0c 00  01 04 5f 70  74 70 c0 30    eam.0....._ptp.0
+00f0: 00 0c 00 01  04 5f 69 70  70 c0 30 00  0c 00 01 08    ....._ipp.0.....
+0100: 5f 73 63 61  6e 6e 65 72  c0 30 00 0c  00 01 08 5f    _scanner.0....._
+0110: 70 72 69 6e  74 65 72 c0  30 00 0c 00  01 07 5f 69    printer.0....._i
+0120: 70 70 75 73  62 c0 30 00  0c 00 01 05  5f 69 70 70    ppusb.0....._ipp
+0130: 73 c0 30 00  0c 00 01 07  5f 75 73 63  61 6e 73 c0    s.0....._uscans.
+0140: 30 00 0c 00  01 07 5f 72  64 6c 69 6e  6b c0 30 00    0....._rdlink.0.
+0150: 0c 00 01 0f  5f 63 6f 6d  70 61 6e 69  6f 6e 2d 6c    ...._companion-l
+0160: 69 6e 6b c0  30 00 0c 00  01 0b 5f 67  6f 6f 67 6c    ink.0....._googl
+0170: 65 63 61 73  74 c0 30 00  0c 00 01 c1  07 00 0c 00    ecast.0.........
+0180: 01 00 00 11  2b 00 11 0e  56 69 6a 61  79 e2 80 99    ....+...Vijay...
+0190: 73 20 69 50  61 64 c1 07  c1 15 00 0c  00 01 00 00    s iPad..........
+01a0: 11 93 00 16  13 44 65 76  e2 80 99 73  20 4d 61 63    .....Dev...s Mac
+01b0: 42 6f 6f 6b  20 41 69 72  c1 15 00 00  29 05 a0 00    Book Air....)...
+01c0: 00 11 94 00  12 00 04 00  0e 00 00 ea  e1 85 30 a1    ..............0.
+01d0: 96 80 65 7c  dd 8a 2d*                                ..e|..-         
+
+
+2023-05-06 16:50:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 80 65  7c dd 8a 2d* 86 dd 60 0b    33.....e|..-..`.
+0010: 08 00 04 fa  11 ff fe 80  00 00 00 00  00 00 04 6c    ...............l
+0020: 47 e1 d0 8d  0e 50 ff 02  00 00 00 00  00 00 00 00    G....P..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 04 fa  a6 e0 00 00    ................
+0040: 84 00 00 00  00 0d 00 00  00 08 13 44  65 76 e2 80    ...........Dev..
+0050: 99 73 20 4d  61 63 42 6f  6f 6b 20 41  69 72 08 5f    .s MacBook Air._
+0060: 61 69 72 70  6c 61 79 04  5f 74 63 70  05 6c 6f 63    airplay._tcp.loc
+0070: 61 6c 00 00  10 80 01 00  00 11 94 01  71 05 61 63    al..........q.ac
+0080: 74 3d 32 05  61 63 6c 3d  30 1a 64 65  76 69 63 65    t=2.acl=0.device
+0090: 69 64 3d 38  30 3a 36 35  3a 37 43 3a  44 44 3a 38    id=80:65:7C:DD:8
+00a0: 41 3a 32 44  12 66 65 78  3d 31 63 39  2f 53 74 35    A:2D.fex=1c9/St5
+00b0: 50 46 62 67  6d 49 51 1e  66 65 61 74  75 72 65 73    PFbgmIQ.features
+00c0: 3d 30 78 34  41 37 46 43  46 44 35 2c  30 78 42 38    =0x4A7FCFD5,0xB8
+00d0: 31 35 34 46  44 45 07 72  73 66 3d 30  78 38 0b 66    154FDE.rsf=0x8.f
+00e0: 6c 61 67 73  3d 30 78 32  30 34 28 67  69 64 3d 35    lags=0x204(gid=5
+00f0: 42 32 33 45  44 37 33 2d  31 34 42 38  2d 34 35 36    B23ED73-14B8-456
+0100: 39 2d 39 39  44 33 2d 34  39 43 41 33  46 44 37 32    9-99D3-49CA3FD72
+0110: 35 42 44 05  69 67 6c 3d  30 06 67 63  67 6c 3d 30    5BD.igl=0.gcgl=0
+0120: 14 6d 6f 64  65 6c 3d 4d  61 63 42 6f  6f 6b 41 69    .model=MacBookAi
+0130: 72 31 30 2c  31 04 61 74  3d 34 0d 70  72 6f 74 6f    r10,1.at=4.proto
+0140: 76 65 72 73  3d 31 2e 31  27 70 69 3d  63 32 34 61    vers=1.1'pi=c24a
+0150: 38 62 65 63  2d 61 65 62  30 2d 34 35  62 33 2d 39    8bec-aeb0-45b3-9
+0160: 36 34 31 2d  35 34 35 35  65 36 63 35  62 66 35 36    641-5455e6c5bf56
+0170: 28 70 73 69  3d 38 35 44  30 34 43 39  43 2d 43 34    (psi=85D04C9C-C4
+0180: 39 46 2d 34  35 31 43 2d  42 37 33 42  2d 37 39 43    9F-451C-B73B-79C
+0190: 45 39 33 35  46 45 38 36  31 43 70 6b  3d 61 65 33    E935FE861Cpk=ae3
+01a0: 35 61 35 31  62 36 31 30  66 66 31 34  33 38 30 66    5a51b610ff14380f
+01b0: 31 31 32 64  38 31 62 62  30 34 35 65  61 33 33 38    112d81bb045ea338
+01c0: 33 37 30 64  63 66 61 64  37 63 65 38  35 32 36 31    370dcfad7ce85261
+01d0: 39 37 33 32  66 38 37 32  66 30 36 38  33 10 73 72    9732f872f0683.sr
+01e0: 63 76 65 72  73 3d 36 36  35 2e 31 33  2e 31 09 5f    cvers=665.13.1._
+01f0: 73 65 72 76  69 63 65 73  07 5f 64 6e  73 2d 73 64    services._dns-sd
+0200: 04 5f 75 64  70 c0 2e 00  0c 00 01 00  00 11 94 00    ._udp...........
+0210: 02 c0 20 c0  20 00 0c 00  01 00 00 11  94 00 02 c0    .. . ...........
+0220: 0c 20 38 30  36 35 37 43  44 44 38 41  32 44 40 44    . 80657CDD8A2D@D
+0230: 65 76 e2 80  99 73 20 4d  61 63 42 6f  6f 6b 20 41    ev...s MacBook A
+0240: 69 72 05 5f  72 61 6f 70  c0 29 00 10  80 01 00 00    ir._raop.)......
+0250: 11 94 00 be  0a 63 6e 3d  30 2c 31 2c  32 2c 33 07    .....cn=0,1,2,3.
+0260: 64 61 3d 74  72 75 65 08  65 74 3d 30  2c 33 2c 35    da=true.et=0,3,5
+0270: 18 66 74 3d  30 78 34 41  37 46 43 46  44 35 2c 30    .ft=0x4A7FCFD5,0
+0280: 78 42 38 31  35 34 46 44  45 08 73 66  3d 30 78 32    xB8154FDE.sf=0x2
+0290: 30 34 08 6d  64 3d 30 2c  31 2c 32 11  61 6d 3d 4d    04.md=0,1,2.am=M
+02a0: 61 63 42 6f  6f 6b 41 69  72 31 30 2c  31 43 70 6b    acBookAir10,1Cpk
+02b0: 3d 61 65 33  35 61 35 31  62 36 31 30  66 66 31 34    =ae35a51b610ff14
+02c0: 33 38 30 66  31 31 32 64  38 31 62 62  30 34 35 65    380f112d81bb045e
+02d0: 61 33 33 38  33 37 30 64  63 66 61 64  37 63 65 38    a338370dcfad7ce8
+02e0: 35 32 36 31  39 37 33 32  66 38 37 32  66 30 36 38    52619732f872f068
+02f0: 33 06 74 70  3d 55 44 50  08 76 6e 3d  36 35 35 33    3.tp=UDP.vn=6553
+0300: 37 0b 76 73  3d 36 36 35  2e 31 33 2e  31 04 76 76    7.vs=665.13.1.vv
+0310: 3d 30 c1 b0  00 0c 00 01  00 00 11 94  00 02 c2 04    =0..............
+0320: c2 04 00 0c  00 01 00 00  11 94 00 02  c1 e3 c0 0c    ................
+0330: 00 21 80 01  00 00 00 78  00 19 00 00  00 00 1b 58    .!.....x.......X
+0340: 10 44 65 76  73 2d 4d 61  63 42 6f 6f  6b 2d 41 69    .Devs-MacBook-Ai
+0350: 72 c0 2e c1  e3 00 21 80  01 00 00 00  78 00 08 00    r.....!.....x...
+0360: 00 00 00 1b  58 c3 02 13  44 65 76 e2  80 99 73 20    ....X...Dev...s 
+0370: 4d 61 63 42  6f 6f 6b 20  41 69 72 0f  5f 63 6f 6d    MacBook Air._com
+0380: 70 61 6e 69  6f 6e 2d 6c  69 6e 6b c0  29 00 10 80    panion-link.)...
+0390: 01 00 00 11  94 00 5b 16  72 70 42 41  3d 33 30 3a    ......[.rpBA=30:
+03a0: 31 39 3a 41  42 3a 32 33  3a 31 42 3a  46 31 11 72    19:AB:23:1B:F1.r
+03b0: 70 41 44 3d  63 39 37 64  31 31 65 34  33 39 62 62    pAD=c97d11e439bb
+03c0: 0c 72 70 46  6c 3d 30 78  32 30 30 30  30 11 72 70    .rpFl=0x20000.rp
+03d0: 48 4e 3d 66  66 37 31 61  38 30 63 35  32 37 33 07    HN=ff71a80c5273.
+03e0: 72 70 4d 61  63 3d 30 0a  72 70 56 72  3d 34 31 30    rpMac=0.rpVr=410
+03f0: 2e 36 c1 b0  00 0c 00 01  00 00 11 94  00 02 c3 3d    .6.............=
+0400: c3 3d 00 0c  00 01 00 00  11 94 00 02  c3 29 13 44    .=...........).D
+0410: 65 76 e2 80  99 73 20 4d  61 63 42 6f  6f 6b 20 41    ev...s MacBook A
+0420: 69 72 0c 5f  64 65 76 69  63 65 2d 69  6e 66 6f c0    ir._device-info.
+0430: 29 00 10 00  01 00 00 11  94 00 29 14  6d 6f 64 65    ).........).mode
+0440: 6c 3d 4d 61  63 42 6f 6f  6b 41 69 72  31 30 2c 31    l=MacBookAir10,1
+0450: 0a 6f 73 78  76 65 72 73  3d 32 32 08  69 63 6f 6c    .osxvers=22.icol
+0460: 6f 72 3d 32  c3 29 00 21  80 01 00 00  00 78 00 08    or=2.).!.....x..
+0470: 00 00 00 00  c0 03 c3 02  c3 02 00 1c  80 01 00 00    ................
+0480: 00 78 00 10  fe 80 00 00  00 00 00 00  04 6c 47 e1    .x...........lG.
+0490: d0 8d 0e 50  c3 02 00 01  80 01 00 00  00 78 00 04    ...P.........x..
+04a0: c0 a8 01 cc  c3 02 00 1c  80 01 00 00  00 78 00 10    .............x..
+04b0: 26 00 40 41  45 49 03 00  18 2a 33 66  c6 49 f6 ee    &.@AEI...*3f.I..
+04c0: c0 0c 00 2f  80 01 00 00  11 94 00 09  c0 0c 00 05    .../............
+04d0: 00 00 80 00  40 c1 e3 00  2f 80 01 00  00 11 94 00    ....@.../.......
+04e0: 09 c1 e3 00  05 00 00 80  00 40 c3 29  00 2f 80 01    .........@.)./..
+04f0: 00 00 11 94  00 09 c3 29  00 05 00 00  80 00 40 c3    .......)......@.
+0500: 02 00 2f 80  01 00 00 00  78 00 08 c3  02 00 04 40    ../.....x......@
+0510: 00 00 08 00  00 29 05 a0  00 00 11 94  00 12 00 04    .....)..........
+0520: 00 0e 00 00  ea e1 85 30  a1 96 80 65  7c dd 8a 2d*   .......0...e|..-
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fd1b0627182class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cd                       ..........      
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fd1b0628d94class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9780)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9d                       ..........      
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fd1b0628d94class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9780)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cd                       ..........      
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fd1b0628d94class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9780)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cd                       ..........      
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7fd1b0628d94class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9780)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9a                       ..........      
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 e9  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 e9  8e f7 00 00    ................
+0040: 00 00 00 04  00 00 00 01  00 01 0f 5f  63 6f 6d 70    ..........._comp
+0050: 61 6e 69 6f  6e 2d 6c 69  6e 6b 04 5f  74 63 70 05    anion-link._tcp.
+0060: 6c 6f 63 61  6c 00 00 0c  80 01 08 5f  68 6f 6d 65    local......_home
+0070: 6b 69 74 c0  1c 00 0c 80  01 0c 5f 73  6c 65 65 70    kit......._sleep
+0080: 2d 70 72 6f  78 79 04 5f  75 64 70 c0  21 00 0c 80    -proxy._udp.!...
+0090: 01 39 33 34  3a 66 65 3a  37 37 3a 62  63 3a 33 39    .934:fe:77:bc:39
+00a0: 3a 30 64 40  66 65 38 30  3a 3a 33 36  66 65 3a 37    :0d@fe80::36fe:7
+00b0: 37 66 66 3a  66 65 62 63  3a 33 39 30  64 2d 73 75    7ff:febc:390d-su
+00c0: 70 70 6f 72  74 73 52 50  2d 31 37 0e  5f 61 70 70    pportsRP-17._app
+00d0: 6c 65 2d 6d  6f 62 64 65  76 32 c0 1c  00 ff 80 01    le-mobdev2......
+00e0: c0 53 00 21  00 01 00 00  00 78 00 16  00 00 00 00    .S.!.....x......
+00f0: 7e f2 0d 56  69 6a 61 79  73 2d 69 70  68 6f 6e 65    ~..Vijays-iphone
+0100: c0 21 00 00  29 05 a0 00  00 11 94 00  12 00 04 00    .!..)...........
+0110: 0e 00 d9 36  fe 77 bc 39  0d 0a 48 0d  1f a6 f5*      ...6.w.9..H... 
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 01 7b  11 ff fe 80  00 00 00 00  00 00 04 3e    ...{...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 01 7b  7b 9c 00 00    ...........{{...
+0040: 84 00 00 00  00 04 00 00  00 04 09 5f  73 65 72 76    ..........._serv
+0050: 69 63 65 73  07 5f 64 6e  73 2d 73 64  04 5f 75 64    ices._dns-sd._ud
+0060: 70 05 6c 6f  63 61 6c 00  00 0c 00 01  00 00 11 94    p.local.........
+0070: 00 16 0e 5f  61 70 70 6c  65 2d 6d 6f  62 64 65 76    ..._apple-mobdev
+0080: 32 04 5f 74  63 70 c0 23  01 31 01 38  01 39 01 38    2._tcp.#.1.8.9.8
+0090: 01 34 01 45  01 39 01 35  01 31 01 31  01 41 01 39    .4.E.9.5.1.1.A.9
+00a0: 01 45 01 33  01 34 01 30  01 30 01 30  01 30 01 30    .E.3.4.0.0.0.0.0
+00b0: 01 30 01 30  01 30 01 30  01 30 01 30  01 30 01 30    .0.0.0.0.0.0.0.0
+00c0: 01 30 01 38  01 45 01 46  03 69 70 36  04 61 72 70    .0.8.E.F.ip6.arp
+00d0: 61 00 00 0c  80 01 00 00  00 78 00 10  0d 56 69 6a    a........x...Vij
+00e0: 61 79 73 2d  69 70 68 6f  6e 65 c0 23  03 31 39 32    ays-iphone.#.192
+00f0: 01 31 03 31  36 38 03 31  39 32 07 69  6e 2d 61 64    .1.168.192.in-ad
+0100: 64 72 c0 8e  00 0c 80 01  00 00 00 78  00 02 c0 9e    dr.........x....
+0110: 01 30 01 32  01 32 01 43  01 32 01 35  01 46 01 31    .0.2.2.C.2.5.F.1
+0120: 01 45 01 37  01 31 01 30  01 37 01 37  01 38 01 31    .E.7.1.0.7.7.8.1
+0130: 01 30 01 30  01 33 01 30  01 39 01 34  01 35 01 34    .0.0.3.0.9.4.5.4
+0140: 01 31 01 34  01 30 01 34  01 30 01 30  01 36 01 32    .1.4.0.4.0.0.6.2
+0150: c0 8a 00 0c  80 01 00 00  00 78 00 02  c0 9e c0 4a    .........x.....J
+0160: 00 2f 80 01  00 00 00 78  00 06 c0 4a  00 02 00 08    ./.....x...J....
+0170: c0 ae 00 2f  80 01 00 00  00 78 00 06  c0 ae 00 02    .../.....x......
+0180: 00 08 c0 d2  00 2f 80 01  00 00 00 78  00 06 c0 d2    ...../.....x....
+0190: 00 02 00 08  00 00 29 05  a0 00 00 11  94 00 12 00    ......).........
+01a0: 04 00 0e 00  d9 36 fe 77  bc 39 0d 0a  48 0d 1f a6    .....6.w.9..H..
+01b0: f5                                                    .               
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 ac  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 ac  23 c7 00 00    ............#...
+0040: 00 00 00 01  00 00 00 01  00 01 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: ff 00 01 c0  0c 00 21 00  01 00 00 00  78 00 16 00    ......!.....x...
+00b0: 00 00 00 7e  f2 0d 56 69  6a 61 79 73  2d 69 70 68    ...~..Vijays-iph
+00c0: 6f 6e 65 c0  5a 00 00 29  05 a0 00 00  11 94 00 12    one.Z..)........
+00d0: 00 04 00 0e  00 d9 36 fe  77 bc 39 0d  0a 48 0d 1f    ......6.w.9..H.
+00e0: a6 f5*                                                ..              
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 80 65  7c dd 8a 2d* 86 dd 60 0b    33.....e|..-..`.
+0010: 08 00 01 a1  11 ff fe 80  00 00 00 00  00 00 04 6c    ...............l
+0020: 47 e1 d0 8d  0e 50 ff 02  00 00 00 00  00 00 00 00    G....P..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 01 a1  e1 e7 00 00    ................
+0040: 00 00 00 11  00 02 00 00  00 01 02 6c  62 07 5f 64    ...........lb._d
+0050: 6e 73 2d 73  64 04 5f 75  64 70 05 6c  6f 63 61 6c    ns-sd._udp.local
+0060: 00 00 0c 00  01 08 5f 61  69 72 70 6f  72 74 04 5f    ......_airport._
+0070: 74 63 70 c0  1c 00 0c 00  01 0d 5f 61  70 70 6c 65    tcp......._apple
+0080: 2d 6d 6f 62  64 65 76 c0  30 00 0c 00  01 08 39 35    -mobdev.0.....95
+0090: 36 65 30 38  31 31 04 5f  73 75 62 0e  5f 61 70 70    6e0811._sub._app
+00a0: 6c 65 2d 6d  6f 62 64 65  76 32 c0 30  00 0c 00 01    le-mobdev2.0....
+00b0: 0f 5f 61 70  70 6c 65 2d  70 61 69 72  61 62 6c 65    ._apple-pairable
+00c0: c0 30 00 0c  00 01 06 5f  75 73 63 61  6e c0 30 00    .0....._uscan.0.
+00d0: 0c 00 01 0f  5f 70 64 6c  2d 64 61 74  61 73 74 72    ...._pdl-datastr
+00e0: 65 61 6d c0  30 00 0c 00  01 04 5f 70  74 70 c0 30    eam.0....._ptp.0
+00f0: 00 0c 00 01  04 5f 69 70  70 c0 30 00  0c 00 01 08    ....._ipp.0.....
+0100: 5f 73 63 61  6e 6e 65 72  c0 30 00 0c  00 01 08 5f    _scanner.0....._
+0110: 70 72 69 6e  74 65 72 c0  30 00 0c 00  01 07 5f 69    printer.0....._i
+0120: 70 70 75 73  62 c0 30 00  0c 00 01 05  5f 69 70 70    ppusb.0....._ipp
+0130: 73 c0 30 00  0c 00 01 07  5f 75 73 63  61 6e 73 c0    s.0....._uscans.
+0140: 30 00 0c 00  01 07 5f 72  64 6c 69 6e  6b c0 30 00    0....._rdlink.0.
+0150: 0c 00 01 0f  5f 63 6f 6d  70 61 6e 69  6f 6e 2d 6c    ...._companion-l
+0160: 69 6e 6b c0  30 00 0c 00  01 0b 5f 67  6f 6f 67 6c    ink.0....._googl
+0170: 65 63 61 73  74 c0 30 00  0c 00 01 c1  07 00 0c 00    ecast.0.........
+0180: 01 00 00 11  22 00 11 0e  56 69 6a 61  79 e2 80 99    ...."...Vijay...
+0190: 73 20 69 50  61 64 c1 07  c1 15 00 0c  00 01 00 00    s iPad..........
+01a0: 11 8e 00 16  13 44 65 76  e2 80 99 73  20 4d 61 63    .....Dev...s Mac
+01b0: 42 6f 6f 6b  20 41 69 72  c1 15 00 00  29 05 a0 00    Book Air....)...
+01c0: 00 11 94 00  12 00 04 00  0e 00 00 ea  e1 85 30 a1    ..............0.
+01d0: 96 80 65 7c  dd 8a 2d*                                ..e|..-         
+
+
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 43
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 32
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:11 11 
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 9 seconds
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2023-05-06 16:50:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 1,7
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 7
+2023-05-06 16:50:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:37:11 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f6d18623cbcclass org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=92)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 98                       ..........      
+
+
+2023-05-06 20:37:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2023-05-06 20:37:11 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 34
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 33
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:1 1 
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 4 seconds
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:37:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:37:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
+2023-05-06 20:37:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 8,4
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 4
+2023-05-06 20:37:11 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c67065eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15054)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 d3                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c67065eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15054)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 ce                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c67065eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15054)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 c0                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c67065eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15054)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c67065eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15054)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c670870class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15584)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 be                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f054c6727aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23578)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 d3                       ..........      
+
+
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 100
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 93
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:7 7 
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 17 seconds
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:37:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 34,18
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 18
+2023-05-06 20:37:36 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:38:33 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 41
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 41
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 1 seconds
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:38:33 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:38:33 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:38:33 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 9,2
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 2
+2023-05-06 20:38:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:39:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@0class org.jnetpcap.protocol.network.Ip4: size=0 bytes
+JMemory: owner=null.class
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 98                       ..........      
+
+
+2023-05-06 20:39:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 1
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 0
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:1 1 
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:39:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:39:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:39:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,0
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 0
+2023-05-06 20:39:16 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:40:13 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:40:13 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:40:14 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 18
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 18
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 2 seconds
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:40:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:40:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:40:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 12,3
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 3
+2023-05-06 20:40:14 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f63285edbe8class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=232)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 c0                       ..........      
+
+
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f63285f19b6class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16054)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 be                       ..........      
+
+
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f63285f37c2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23746)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9c                       ..........      
+
+
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f63285f37c2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23746)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 98                       ..........      
+
+
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 100
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 96
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:4 4 
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 14 seconds
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:40:33 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 18,17
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 17
+2023-05-06 20:40:33 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@0class org.jnetpcap.protocol.network.Ip4: size=0 bytes
+JMemory: owner=null.class
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 02 71  11 ff fe 80  00 00 00 00  00 00 04 3e    ...q...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 02 71  b9 bc 00 00    ...........q....
+0040: 84 00 00 00  00 0b 00 00  00 06 01 31  01 38 01 39    ...........1.8.9
+0050: 01 38 01 34  01 45 01 39  01 35 01 31  01 31 01 41    .8.4.E.9.5.1.1.A
+0060: 01 39 01 45  01 33 01 34  01 30 01 30  01 30 01 30    .9.E.3.4.0.0.0.0
+0070: 01 30 01 30  01 30 01 30  01 30 01 30  01 30 01 30    .0.0.0.0.0.0.0.0
+0080: 01 30 01 30  01 38 01 45  01 46 03 69  70 36 04 61    .0.0.8.E.F.ip6.a
+0090: 72 70 61 00  00 0c 80 01  00 00 00 78  00 15 0d 56    rpa........x...V
+00a0: 69 6a 61 79  73 2d 69 70  68 6f 6e 65  05 6c 6f 63    ijays-iphone.loc
+00b0: 61 6c 00 03  31 39 32 01  31 03 31 36  38 03 31 39    al..192.1.168.19
+00c0: 32 07 69 6e  2d 61 64 64  72 c0 50 00  0c 80 01 00    2.in-addr.P.....
+00d0: 00 00 78 00  02 c0 60 01  30 01 32 01  32 01 43 01    ..x...`.0.2.2.C.
+00e0: 32 01 35 01  46 01 31 01  45 01 37 01  31 01 30 01    2.5.F.1.E.7.1.0.
+00f0: 37 01 37 01  38 01 31 01  30 01 30 01  33 01 30 01    7.7.8.1.0.0.3.0.
+0100: 39 01 34 01  35 01 34 01  31 01 34 01  30 01 34 01    9.4.5.4.1.4.0.4.
+0110: 30 01 30 01  36 01 32 c0  4c 00 0c 80  01 00 00 00    0.0.6.2.L.......
+0120: 78 00 02 c0  60 39 33 34  3a 66 65 3a  37 37 3a 62    x...`934:fe:77:b
+0130: 63 3a 33 39  3a 30 64 40  66 65 38 30  3a 3a 33 36    c:39:0d@fe80::36
+0140: 66 65 3a 37  37 66 66 3a  66 65 62 63  3a 33 39 30    fe:77ff:febc:390
+0150: 64 2d 73 75  70 70 6f 72  74 73 52 50  2d 31 37 0e    d-supportsRP-17.
+0160: 5f 61 70 70  6c 65 2d 6d  6f 62 64 65  76 32 04 5f    _apple-mobdev2._
+0170: 74 63 70 c0  6e 00 10 80  01 00 00 11  94 00 01 00    tcp.n...........
+0180: 09 5f 73 65  72 76 69 63  65 73 07 5f  64 6e 73 2d    ._services._dns-
+0190: 73 64 04 5f  75 64 70 c0  6e 00 0c 00  01 00 00 11    sd._udp.n.......
+01a0: 94 00 02 c1  21 08 38 65  35 39 30 37  39 61 04 5f    ....!.8e59079a._
+01b0: 73 75 62 c1  21 00 0c 00  01 00 00 11  94 00 02 c0    sub.!...........
+01c0: e7 c1 21 00  0c 00 01 00  00 11 94 00  02 c0 e7 c0    ..!.............
+01d0: e7 00 21 80  01 00 00 00  78 00 08 00  00 00 00 7e    ..!.....x......~
+01e0: f2 c0 60 c0  60 00 1c 80  01 00 00 00  78 00 10 fe    ..`.`.......x...
+01f0: 80 00 00 00  00 00 00 04  3e 9a 11 59  e4 89 81 c0    ........>..Y....
+0200: 60 00 01 80  01 00 00 00  78 00 04 c0  a8 01 c0 c0    `.......x.......
+0210: 60 00 1c 80  01 00 00 00  78 00 10 26  00 40 41 45    `.......x..&.@AE
+0220: 49 03 00 18  77 01 7e 1f  52 c2 20 c0  0c 00 2f 80    I...w.~R. .../.
+0230: 01 00 00 00  78 00 06 c0  0c 00 02 00  08 c0 75 00    ....x.........u.
+0240: 2f 80 01 00  00 00 78 00  06 c0 75 00  02 00 08 c0    /.....x...u.....
+0250: 99 00 2f 80  01 00 00 00  78 00 06 c0  99 00 02 00    ../.....x.......
+0260: 08 c0 e7 00  2f 80 01 00  00 11 94 00  09 c0 e7 00    ..../...........
+0270: 05 00 00 80  00 40 c0 60  00 2f 80 01  00 00 00 78    .....@.`./.....x
+0280: 00 08 c0 60  00 04 40 00  00 08 00 00  29 05 a0 00    ...`..@.....)...
+0290: 00 11 94 00  12 00 04 00  0e 00 dc 36  fe 77 bc 39    ...........6.w.9
+02a0: 0d 0a 48 0d  1f a6 f5*                                ..H...         
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c6284faclass org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11290)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9f                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 98                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 9f                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 ce                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 c0                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 d3                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b188class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22696)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 be                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b3f6class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23318)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 9c                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b3f6class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23318)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b3f6class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23318)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 ce                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b3f6class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23318)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 ff d5  2b a0 78 67  0e 4e b5 3f* 86 dd 60 0a    33..+.xg.N.?..`.
+0010: 1e 9f 00 20  3a ff fe 80  00 00 00 00  00 00 7a 67    ... :.........zg
+0020: 0e ff fe 4e  b5 3f ff 02  00 00 00 00  00 00 00 00    ...N.?..........
+0030: 00 01 ff d5  2b a0 87 00  f7 02 00 00  00 00 fe 80    ....+...........
+0040: 00 00 00 00  00 00 9a 35  27 8f f2 d5  2b a0 01 01    .......5'...+...
+0050: 78 67 0e 4e  b5 3f*                                   xg.N.?          
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 30 24  32 3e 2c d1* 86 dd 60 08    33....0$2>,...`.
+0010: d0 63 00 33  11 01 fe 80  00 00 00 00  00 00 d4 fc    .c.3............
+0020: 1f 0a d1 d3  f3 0a ff 02  00 00 00 00  00 00 00 00    ...............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 33  74 d4 00 00    ...........3t...
+0040: 00 00 00 01  00 00 00 00  00 00 0e 5f  6d 69 63 72    ..........._micr
+0050: 6f 73 6f 66  74 5f 6d 63  63 04 5f 74  63 70 05 6c    osoft_mcc._tcp.l
+0060: 6f 63 61 6c  00 00 0c 80  01*                         ocal.....       
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 30 24  32 3e 2c d1* 86 dd 60 08    33....0$2>,...`.
+0010: d0 63 00 33  11 01 fe 80  00 00 00 00  00 00 d4 fc    .c.3............
+0020: 1f 0a d1 d3  f3 0a ff 02  00 00 00 00  00 00 00 00    ...............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 33  75 54 00 00    ...........3uT..
+0040: 00 00 00 01  00 00 00 00  00 00 0e 5f  6d 69 63 72    ..........._micr
+0050: 6f 73 6f 66  74 5f 6d 63  63 04 5f 74  63 70 05 6c    osoft_mcc._tcp.l
+0060: 6f 63 61 6c  00 00 0c 00  01*                         ocal.....       
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f443c62b95eclass org.jnetpcap.protocol.network.Ip4: size=12 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24702)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 100
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 81
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:19 19 
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 15 seconds
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,1
+2023-05-06 20:40:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 41,11
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 11
+2023-05-06 20:40:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:41:07 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 ae  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 ae  08 c7 00 00    ................
+0040: 84 00 00 00  00 02 00 00  00 01 08 38  65 35 39 30    ...........8e590
+0050: 37 39 61 04  5f 73 75 62  0e 5f 61 70  70 6c 65 2d    79a._sub._apple-
+0060: 6d 6f 62 64  65 76 32 04  5f 74 63 70  05 6c 6f 63    mobdev2._tcp.loc
+0070: 61 6c 00 00  0c 00 01 00  00 00 00 00  3c 39 33 34    al..........<934
+0080: 3a 66 65 3a  37 37 3a 62  63 3a 33 39  3a 30 64 40    :fe:77:bc:39:0d@
+0090: 66 65 38 30  3a 3a 33 36  66 65 3a 37  37 66 66 3a    fe80::36fe:77ff:
+00a0: 66 65 62 63  3a 33 39 30  64 2d 73 75  70 70 6f 72    febc:390d-suppor
+00b0: 74 73 52 50  2d 31 37 c0  1a c0 1a 00  0c 00 01 00    tsRP-17.........
+00c0: 00 00 00 00  02 c0 3f 00  00 29 05 a0  00 00 11 94    ......?..)......
+00d0: 00 12 00 04  00 0e 00 dc  36 fe 77 bc  39 0d 0a 48    ........6.w.9..H
+00e0: 0d 1f a6 f5*                                          ...            
+
+
+2023-05-06 20:41:07 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f52a4695d86class org.jnetpcap.protocol.network.Ip4: size=12 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=422)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9c                       ..........      
+
+
+2023-05-06 20:41:07 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 100
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 98
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:2 2 
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 6 seconds
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:41:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:41:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:41:07 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 10,3
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 3
+2023-05-06 20:41:07 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f076862d1bcclass org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=92)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 ff d5  2b a0 78 67  0e 4e b5 3f* 86 dd 60 0a    33..+.xg.N.?..`.
+0010: 1e 9f 00 20  3a ff fe 80  00 00 00 00  00 00 7a 67    ... :.........zg
+0020: 0e ff fe 4e  b5 3f ff 02  00 00 00 00  00 00 00 00    ...N.?..........
+0030: 00 01 ff d5  2b a0 87 00  f7 02 00 00  00 00 fe 80    ....+...........
+0040: 00 00 00 00  00 00 9a 35  27 8f f2 d5  2b a0 01 01    .......5'...+...
+0050: 78 67 0e 4e  b5 3f*                                   xg.N.?          
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f076862e482class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4898)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 c0                       ..........      
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f076862e482class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4898)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f076862e482class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4898)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 98                       ..........      
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f0768631388class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16936)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 e9  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 e9  8a f7 00 00    ................
+0040: 00 00 00 04  00 00 00 01  00 01 0f 5f  63 6f 6d 70    ..........._comp
+0050: 61 6e 69 6f  6e 2d 6c 69  6e 6b 04 5f  74 63 70 05    anion-link._tcp.
+0060: 6c 6f 63 61  6c 00 00 0c  80 01 08 5f  68 6f 6d 65    local......_home
+0070: 6b 69 74 c0  1c 00 0c 80  01 0c 5f 73  6c 65 65 70    kit......._sleep
+0080: 2d 70 72 6f  78 79 04 5f  75 64 70 c0  21 00 0c 80    -proxy._udp.!...
+0090: 01 39 33 34  3a 66 65 3a  37 37 3a 62  63 3a 33 39    .934:fe:77:bc:39
+00a0: 3a 30 64 40  66 65 38 30  3a 3a 33 36  66 65 3a 37    :0d@fe80::36fe:7
+00b0: 37 66 66 3a  66 65 62 63  3a 33 39 30  64 2d 73 75    7ff:febc:390d-su
+00c0: 70 70 6f 72  74 73 52 50  2d 31 37 0e  5f 61 70 70    pportsRP-17._app
+00d0: 6c 65 2d 6d  6f 62 64 65  76 32 c0 1c  00 ff 80 01    le-mobdev2......
+00e0: c0 53 00 21  00 01 00 00  00 78 00 16  00 00 00 00    .S.!.....x......
+00f0: 7e f2 0d 56  69 6a 61 79  73 2d 69 70  68 6f 6e 65    ~..Vijays-iphone
+0100: c0 21 00 00  29 05 a0 00  00 11 94 00  12 00 04 00    .!..)...........
+0110: 0e 00 dd 36  fe 77 bc 39  0d 0a 48 0d  1f a6 f5*      ...6.w.9..H... 
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 01 7b  11 ff fe 80  00 00 00 00  00 00 04 3e    ...{...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 01 7b  77 9c 00 00    ...........{w...
+0040: 84 00 00 00  00 04 00 00  00 04 09 5f  73 65 72 76    ..........._serv
+0050: 69 63 65 73  07 5f 64 6e  73 2d 73 64  04 5f 75 64    ices._dns-sd._ud
+0060: 70 05 6c 6f  63 61 6c 00  00 0c 00 01  00 00 11 94    p.local.........
+0070: 00 16 0e 5f  61 70 70 6c  65 2d 6d 6f  62 64 65 76    ..._apple-mobdev
+0080: 32 04 5f 74  63 70 c0 23  01 31 01 38  01 39 01 38    2._tcp.#.1.8.9.8
+0090: 01 34 01 45  01 39 01 35  01 31 01 31  01 41 01 39    .4.E.9.5.1.1.A.9
+00a0: 01 45 01 33  01 34 01 30  01 30 01 30  01 30 01 30    .E.3.4.0.0.0.0.0
+00b0: 01 30 01 30  01 30 01 30  01 30 01 30  01 30 01 30    .0.0.0.0.0.0.0.0
+00c0: 01 30 01 38  01 45 01 46  03 69 70 36  04 61 72 70    .0.8.E.F.ip6.arp
+00d0: 61 00 00 0c  80 01 00 00  00 78 00 10  0d 56 69 6a    a........x...Vij
+00e0: 61 79 73 2d  69 70 68 6f  6e 65 c0 23  03 31 39 32    ays-iphone.#.192
+00f0: 01 31 03 31  36 38 03 31  39 32 07 69  6e 2d 61 64    .1.168.192.in-ad
+0100: 64 72 c0 8e  00 0c 80 01  00 00 00 78  00 02 c0 9e    dr.........x....
+0110: 01 30 01 32  01 32 01 43  01 32 01 35  01 46 01 31    .0.2.2.C.2.5.F.1
+0120: 01 45 01 37  01 31 01 30  01 37 01 37  01 38 01 31    .E.7.1.0.7.7.8.1
+0130: 01 30 01 30  01 33 01 30  01 39 01 34  01 35 01 34    .0.0.3.0.9.4.5.4
+0140: 01 31 01 34  01 30 01 34  01 30 01 30  01 36 01 32    .1.4.0.4.0.0.6.2
+0150: c0 8a 00 0c  80 01 00 00  00 78 00 02  c0 9e c0 4a    .........x.....J
+0160: 00 2f 80 01  00 00 00 78  00 06 c0 4a  00 02 00 08    ./.....x...J....
+0170: c0 ae 00 2f  80 01 00 00  00 78 00 06  c0 ae 00 02    .../.....x......
+0180: 00 08 c0 d2  00 2f 80 01  00 00 00 78  00 06 c0 d2    ...../.....x....
+0190: 00 02 00 08  00 00 29 05  a0 00 00 11  94 00 12 00    ......).........
+01a0: 04 00 0e 00  dd 36 fe 77  bc 39 0d 0a  48 0d 1f a6    .....6.w.9..H..
+01b0: f5                                                    .               
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 ac  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 ac  23 c3 00 00    ............#...
+0040: 00 00 00 01  00 00 00 01  00 01 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: ff 00 01 c0  0c 00 21 00  01 00 00 00  78 00 16 00    ......!.....x...
+00b0: 00 00 00 7e  f2 0d 56 69  6a 61 79 73  2d 69 70 68    ...~..Vijays-iph
+00c0: 6f 6e 65 c0  5a 00 00 29  05 a0 00 00  11 94 00 12    one.Z..)........
+00d0: 00 04 00 0e  00 dd 36 fe  77 bc 39 0d  0a 48 0d 1f    ......6.w.9..H.
+00e0: a6 f5*                                                ..              
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 92  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 92  b3 a4 00 00    ................
+0040: 00 00 00 01  00 00 00 03  00 01 0d 56  69 6a 61 79    ...........Vijay
+0050: 73 2d 69 70  68 6f 6e 65  05 6c 6f 63  61 6c 00 00    s-iphone.local..
+0060: ff 80 01 c0  0c 00 1c 00  01 00 00 00  78 00 10 fe    ............x...
+0070: 80 00 00 00  00 00 00 04  3e 9a 11 59  e4 89 81 c0    ........>..Y....
+0080: 0c 00 01 00  01 00 00 00  78 00 04 c0  a8 01 c0 c0    ........x.......
+0090: 0c 00 1c 00  01 00 00 00  78 00 10 26  00 40 41 45    ........x..&.@AE
+00a0: 49 03 00 18  77 01 7e 1f  52 c2 20 00  00 29 05 a0    I...w.~R. ..)..
+00b0: 00 00 11 94  00 12 00 04  00 0e 00 dd  36 fe 77 bc    ............6.w.
+00c0: 39 0d 0a 48  0d 1f a6 f5*                             9..H...        
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 ac  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 ac  23 c3 00 00    ............#...
+0040: 00 00 00 01  00 00 00 01  00 01 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: ff 00 01 c0  0c 00 21 00  01 00 00 00  78 00 16 00    ......!.....x...
+00b0: 00 00 00 7e  f2 0d 56 69  6a 61 79 73  2d 69 70 68    ...~..Vijays-iph
+00c0: 6f 6e 65 c0  5a 00 00 29  05 a0 00 00  11 94 00 12    one.Z..)........
+00d0: 00 04 00 0e  00 dd 36 fe  77 bc 39 0d  0a 48 0d 1f    ......6.w.9..H.
+00e0: a6 f5*                                                ..              
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 92  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 92  b4 24 00 00    .............$..
+0040: 00 00 00 01  00 00 00 03  00 01 0d 56  69 6a 61 79    ...........Vijay
+0050: 73 2d 69 70  68 6f 6e 65  05 6c 6f 63  61 6c 00 00    s-iphone.local..
+0060: ff 00 01 c0  0c 00 1c 00  01 00 00 00  78 00 10 fe    ............x...
+0070: 80 00 00 00  00 00 00 04  3e 9a 11 59  e4 89 81 c0    ........>..Y....
+0080: 0c 00 01 00  01 00 00 00  78 00 04 c0  a8 01 c0 c0    ........x.......
+0090: 0c 00 1c 00  01 00 00 00  78 00 10 26  00 40 41 45    ........x..&.@AE
+00a0: 49 03 00 18  77 01 7e 1f  52 c2 20 00  00 29 05 a0    I...w.~R. ..)..
+00b0: 00 00 11 94  00 12 00 04  00 0e 00 dd  36 fe 77 bc    ............6.w.
+00c0: 39 0d 0a 48  0d 1f a6 f5*                             9..H...        
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 f2  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 f2  99 ec 00 00    ................
+0040: 84 00 00 00  00 04 00 00  00 02 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: 10 80 01 00  00 11 94 00  01 00 08 38  65 35 39 30    ...........8e590
+00b0: 37 39 61 04  5f 73 75 62  c0 46 00 0c  00 01 00 00    79a._sub.F......
+00c0: 11 94 00 02  c0 0c c0 46  00 0c 00 01  00 00 11 94    .......F........
+00d0: 00 02 c0 0c  c0 0c 00 21  80 01 00 00  00 78 00 16    .......!.....x..
+00e0: 00 00 00 00  7e f2 0d 56  69 6a 61 79  73 2d 69 70    ....~..Vijays-ip
+00f0: 68 6f 6e 65  c0 5a c0 0c  00 2f 80 01  00 00 11 94    hone.Z.../......
+0100: 00 09 c0 0c  00 05 00 00  80 00 40 00  00 29 05 a0    ..........@..)..
+0110: 00 00 11 94  00 12 00 04  00 0e 00 dd  36 fe 77 bc    ............6.w.
+0120: 39 0d 0a 48  0d 1f a6 f5*                             9..H...        
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 92  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 92  b4 24 00 00    .............$..
+0040: 00 00 00 01  00 00 00 03  00 01 0d 56  69 6a 61 79    ...........Vijay
+0050: 73 2d 69 70  68 6f 6e 65  05 6c 6f 63  61 6c 00 00    s-iphone.local..
+0060: ff 00 01 c0  0c 00 1c 00  01 00 00 00  78 00 10 fe    ............x...
+0070: 80 00 00 00  00 00 00 04  3e 9a 11 59  e4 89 81 c0    ........>..Y....
+0080: 0c 00 01 00  01 00 00 00  78 00 04 c0  a8 01 c0 c0    ........x.......
+0090: 0c 00 1c 00  01 00 00 00  78 00 10 26  00 40 41 45    ........x..&.@AE
+00a0: 49 03 00 18  77 01 7e 1f  52 c2 20 00  00 29 05 a0    I...w.~R. ..)..
+00b0: 00 00 11 94  00 12 00 04  00 0e 00 dd  36 fe 77 bc    ............6.w.
+00c0: 39 0d 0a 48  0d 1f a6 f5*                             9..H...        
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 a0  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 a0  65 08 00 00    ............e...
+0040: 84 00 00 00  00 03 00 00  00 02 0d 56  69 6a 61 79    ...........Vijay
+0050: 73 2d 69 70  68 6f 6e 65  05 6c 6f 63  61 6c 00 00    s-iphone.local..
+0060: 1c 80 01 00  00 00 78 00  10 fe 80 00  00 00 00 00    ......x.........
+0070: 00 04 3e 9a  11 59 e4 89  81 c0 0c 00  01 80 01 00    ..>..Y..........
+0080: 00 00 78 00  04 c0 a8 01  c0 c0 0c 00  1c 80 01 00    ..x.............
+0090: 00 00 78 00  10 26 00 40  41 45 49 03  00 18 77 01    ..x..&.@AEI...w.
+00a0: 7e 1f 52 c2  20 c0 0c 00  2f 80 01 00  00 00 78 00    ~R. .../.....x.
+00b0: 08 c0 0c 00  04 40 00 00  08 00 00 29  05 a0 00 00    .....@.....)....
+00c0: 11 94 00 12  00 04 00 0e  00 dd 36 fe  77 bc 39 0d    ..........6.w.9.
+00d0: 0a 48 0d 1f  a6 f5*                                   .H...          
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 01 4e  11 ff fe 80  00 00 00 00  00 00 04 3e    ...N...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 01 4e  da 98 00 00    ...........N....
+0040: 84 00 00 00  00 07 00 00  00 03 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: 10 80 01 00  00 11 94 00  01 00 08 38  65 35 39 30    ...........8e590
+00b0: 37 39 61 04  5f 73 75 62  c0 46 00 0c  00 01 00 00    79a._sub.F......
+00c0: 11 94 00 02  c0 0c c0 46  00 0c 00 01  00 00 11 94    .......F........
+00d0: 00 02 c0 0c  c0 0c 00 21  80 01 00 00  00 78 00 16    .......!.....x..
+00e0: 00 00 00 00  7e f2 0d 56  69 6a 61 79  73 2d 69 70    ....~..Vijays-ip
+00f0: 68 6f 6e 65  c0 5a c0 a8  00 1c 80 01  00 00 00 78    hone.Z.........x
+0100: 00 10 fe 80  00 00 00 00  00 00 04 3e  9a 11 59 e4    ...........>..Y.
+0110: 89 81 c0 a8  00 01 80 01  00 00 00 78  00 04 c0 a8    ...........x....
+0120: 01 c0 c0 a8  00 1c 80 01  00 00 00 78  00 10 26 00    ...........x..&.
+0130: 40 41 45 49  03 00 18 77  01 7e 1f 52  c2 20 c0 0c    @AEI...w.~R. ..
+0140: 00 2f 80 01  00 00 11 94  00 09 c0 0c  00 05 00 00    ./..............
+0150: 80 00 40 c0  a8 00 2f 80  01 00 00 00  78 00 08 c0    ..@.../.....x...
+0160: a8 00 04 40  00 00 08 00  00 29 05 a0  00 00 11 94    ...@.....)......
+0170: 00 12 00 04  00 0e 00 dd  36 fe 77 bc  39 0d 0a 48    ........6.w.9..H
+0180: 0d 1f a6 f5*                                          ...            
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 02 71  11 ff fe 80  00 00 00 00  00 00 04 3e    ...q...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 02 71  51 49 00 00    ...........qQI..
+0040: 84 00 00 00  00 0b 00 00  00 06 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: 10 80 01 00  00 11 94 00  01 00 09 5f  73 65 72 76    ..........._serv
+00b0: 69 63 65 73  07 5f 64 6e  73 2d 73 64  04 5f 75 64    ices._dns-sd._ud
+00c0: 70 c0 5a 00  0c 00 01 00  00 11 94 00  02 c0 46 08    p.Z...........F.
+00d0: 38 65 35 39  30 37 39 61  04 5f 73 75  62 c0 46 00    8e59079a._sub.F.
+00e0: 0c 00 01 00  00 11 94 00  02 c0 0c c0  46 00 0c 00    ............F...
+00f0: 01 00 00 11  94 00 02 c0  0c 01 31 01  38 01 39 01    ..........1.8.9.
+0100: 38 01 34 01  45 01 39 01  35 01 31 01  31 01 41 01    8.4.E.9.5.1.1.A.
+0110: 39 01 45 01  33 01 34 01  30 01 30 01  30 01 30 01    9.E.3.4.0.0.0.0.
+0120: 30 01 30 01  30 01 30 01  30 01 30 01  30 01 30 01    0.0.0.0.0.0.0.0.
+0130: 30 01 30 01  38 01 45 01  46 03 69 70  36 04 61 72    0.0.8.E.F.ip6.ar
+0140: 70 61 00 00  0c 80 01 00  00 00 78 00  10 0d 56 69    pa........x...Vi
+0150: 6a 61 79 73  2d 69 70 68  6f 6e 65 c0  5a 03 31 39    jays-iphone.Z.19
+0160: 32 01 31 03  31 36 38 03  31 39 32 07  69 6e 2d 61    2.1.168.192.in-a
+0170: 64 64 72 c0  ff 00 0c 80  01 00 00 00  78 00 02 c1    ddr.........x...
+0180: 0f 01 30 01  32 01 32 01  43 01 32 01  35 01 46 01    ..0.2.2.C.2.5.F.
+0190: 31 01 45 01  37 01 31 01  30 01 37 01  37 01 38 01    1.E.7.1.0.7.7.8.
+01a0: 31 01 30 01  30 01 33 01  30 01 39 01  34 01 35 01    1.0.0.3.0.9.4.5.
+01b0: 34 01 31 01  34 01 30 01  34 01 30 01  30 01 36 01    4.1.4.0.4.0.0.6.
+01c0: 32 c0 fb 00  0c 80 01 00  00 00 78 00  02 c1 0f c0    2.........x.....
+01d0: 0c 00 21 80  01 00 00 00  78 00 08 00  00 00 00 7e    ..!.....x......~
+01e0: f2 c1 0f c1  0f 00 1c 80  01 00 00 00  78 00 10 fe    ............x...
+01f0: 80 00 00 00  00 00 00 04  3e 9a 11 59  e4 89 81 c1    ........>..Y....
+0200: 0f 00 01 80  01 00 00 00  78 00 04 c0  a8 01 c0 c1    ........x.......
+0210: 0f 00 1c 80  01 00 00 00  78 00 10 26  00 40 41 45    ........x..&.@AE
+0220: 49 03 00 18  77 01 7e 1f  52 c2 20 c0  0c 00 2f 80    I...w.~R. .../.
+0230: 01 00 00 11  94 00 09 c0  0c 00 05 00  00 80 00 40    ...............@
+0240: c0 bb 00 2f  80 01 00 00  00 78 00 06  c0 bb 00 02    .../.....x......
+0250: 00 08 c1 1f  00 2f 80 01  00 00 00 78  00 06 c1 1f    ..../.....x...
+0260: 00 02 00 08  c1 43 00 2f  80 01 00 00  00 78 00 06    .....C./.....x..
+0270: c1 43 00 02  00 08 c1 0f  00 2f 80 01  00 00 00 78    .C......./.....x
+0280: 00 08 c1 0f  00 04 40 00  00 08 00 00  29 05 a0 00    ......@.....)...
+0290: 00 11 94 00  12 00 04 00  0e 00 dd 36  fe 77 bc 39    ...........6.w.9
+02a0: 0d 0a 48 0d  1f a6 f5*                                ..H...         
+
+
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 100
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 83
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:17 17 
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 18 seconds
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,2
+2023-05-06 20:41:32 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 31,17
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 17
+2023-05-06 20:41:32 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeter-V3 found: 1 Files.
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... pcap/dump.pcap 
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 02 71  11 ff fe 80  00 00 00 00  00 00 04 3e    ...q...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 02 71  50 49 00 00    ...........qPI..
+0040: 84 00 00 00  00 0b 00 00  00 06 39 33  34 3a 66 65    ..........934:fe
+0050: 3a 37 37 3a  62 63 3a 33  39 3a 30 64  40 66 65 38    :77:bc:39:0d@fe8
+0060: 30 3a 3a 33  36 66 65 3a  37 37 66 66  3a 66 65 62    0::36fe:77ff:feb
+0070: 63 3a 33 39  30 64 2d 73  75 70 70 6f  72 74 73 52    c:390d-supportsR
+0080: 50 2d 31 37  0e 5f 61 70  70 6c 65 2d  6d 6f 62 64    P-17._apple-mobd
+0090: 65 76 32 04  5f 74 63 70  05 6c 6f 63  61 6c 00 00    ev2._tcp.local..
+00a0: 10 80 01 00  00 11 94 00  01 00 09 5f  73 65 72 76    ..........._serv
+00b0: 69 63 65 73  07 5f 64 6e  73 2d 73 64  04 5f 75 64    ices._dns-sd._ud
+00c0: 70 c0 5a 00  0c 00 01 00  00 11 94 00  02 c0 46 08    p.Z...........F.
+00d0: 38 65 35 39  30 37 39 61  04 5f 73 75  62 c0 46 00    8e59079a._sub.F.
+00e0: 0c 00 01 00  00 11 94 00  02 c0 0c c0  46 00 0c 00    ............F...
+00f0: 01 00 00 11  94 00 02 c0  0c 01 31 01  38 01 39 01    ..........1.8.9.
+0100: 38 01 34 01  45 01 39 01  35 01 31 01  31 01 41 01    8.4.E.9.5.1.1.A.
+0110: 39 01 45 01  33 01 34 01  30 01 30 01  30 01 30 01    9.E.3.4.0.0.0.0.
+0120: 30 01 30 01  30 01 30 01  30 01 30 01  30 01 30 01    0.0.0.0.0.0.0.0.
+0130: 30 01 30 01  38 01 45 01  46 03 69 70  36 04 61 72    0.0.8.E.F.ip6.ar
+0140: 70 61 00 00  0c 80 01 00  00 00 78 00  10 0d 56 69    pa........x...Vi
+0150: 6a 61 79 73  2d 69 70 68  6f 6e 65 c0  5a 03 31 39    jays-iphone.Z.19
+0160: 32 01 31 03  31 36 38 03  31 39 32 07  69 6e 2d 61    2.1.168.192.in-a
+0170: 64 64 72 c0  ff 00 0c 80  01 00 00 00  78 00 02 c1    ddr.........x...
+0180: 0f 01 30 01  32 01 32 01  43 01 32 01  35 01 46 01    ..0.2.2.C.2.5.F.
+0190: 31 01 45 01  37 01 31 01  30 01 37 01  37 01 38 01    1.E.7.1.0.7.7.8.
+01a0: 31 01 30 01  30 01 33 01  30 01 39 01  34 01 35 01    1.0.0.3.0.9.4.5.
+01b0: 34 01 31 01  34 01 30 01  34 01 30 01  30 01 36 01    4.1.4.0.4.0.0.6.
+01c0: 32 c0 fb 00  0c 80 01 00  00 00 78 00  02 c1 0f c0    2.........x.....
+01d0: 0c 00 21 80  01 00 00 00  78 00 08 00  00 00 00 7e    ..!.....x......~
+01e0: f2 c1 0f c1  0f 00 1c 80  01 00 00 00  78 00 10 fe    ............x...
+01f0: 80 00 00 00  00 00 00 04  3e 9a 11 59  e4 89 81 c1    ........>..Y....
+0200: 0f 00 01 80  01 00 00 00  78 00 04 c0  a8 01 c0 c1    ........x.......
+0210: 0f 00 1c 80  01 00 00 00  78 00 10 26  00 40 41 45    ........x..&.@AE
+0220: 49 03 00 18  77 01 7e 1f  52 c2 20 c0  0c 00 2f 80    I...w.~R. .../.
+0230: 01 00 00 11  94 00 09 c0  0c 00 05 00  00 80 00 40    ...............@
+0240: c0 bb 00 2f  80 01 00 00  00 78 00 06  c0 bb 00 02    .../.....x......
+0250: 00 08 c1 1f  00 2f 80 01  00 00 00 78  00 06 c1 1f    ..../.....x...
+0260: 00 02 00 08  c1 43 00 2f  80 01 00 00  00 78 00 06    .....C./.....x..
+0270: c1 43 00 02  00 08 c1 0f  00 2f 80 01  00 00 00 78    .C......./.....x
+0280: 00 08 c1 0f  00 04 40 00  00 08 00 00  29 05 a0 00    ......@.....)...
+0290: 00 11 94 00  12 00 04 00  0e 00 de 36  fe 77 bc 39    ...........6.w.9
+02a0: 0d 0a 48 0d  1f a6 f5*                                ..H...         
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c670b94class org.jnetpcap.protocol.network.Ip4: size=12 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=116)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 ff d5  2b a0 78 67  0e 4e b5 3f* 86 dd 60 0a    33..+.xg.N.?..`.
+0010: 1e 9f 00 20  3a ff fe 80  00 00 00 00  00 00 7a 67    ... :.........zg
+0020: 0e ff fe 4e  b5 3f ff 02  00 00 00 00  00 00 00 00    ...N.?..........
+0030: 00 01 ff d5  2b a0 87 00  f7 02 00 00  00 00 fe 80    ....+...........
+0040: 00 00 00 00  00 00 9a 35  27 8f f2 d5  2b a0 01 01    .......5'...+...
+0050: 78 67 0e 4e  b5 3f*                                   xg.N.?          
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 78  11 ff fe 80  00 00 00 00  00 00 04 3e    ...x...........>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 78  34 1b 00 00    ...........x4...
+0040: 00 00 00 03  00 00 00 00  00 01 0f 5f  63 6f 6d 70    ..........._comp
+0050: 61 6e 69 6f  6e 2d 6c 69  6e 6b 04 5f  74 63 70 05    anion-link._tcp.
+0060: 6c 6f 63 61  6c 00 00 0c  00 01 08 5f  68 6f 6d 65    local......_home
+0070: 6b 69 74 c0  1c 00 0c 00  01 0c 5f 73  6c 65 65 70    kit......._sleep
+0080: 2d 70 72 6f  78 79 04 5f  75 64 70 c0  21 00 0c 00    -proxy._udp.!...
+0090: 01 00 00 29  05 a0 00 00  11 94 00 12  00 04 00 0e    ...)............
+00a0: 00 de 36 fe  77 bc 39 0d  0a 48 0d 1f  a6 f5*         ..6.w.9..H...  
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 0a 48  0d 1f a6 f5* 86 dd 60 0c    33.....H.....`.
+0010: 0a 00 00 ae  11 ff fe 80  00 00 00 00  00 00 04 3e    ...............>
+0020: 9a 11 59 e4  89 81 ff 02  00 00 00 00  00 00 00 00    ..Y.............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 ae  08 c5 00 00    ................
+0040: 84 00 00 00  00 02 00 00  00 01 08 38  65 35 39 30    ...........8e590
+0050: 37 39 61 04  5f 73 75 62  0e 5f 61 70  70 6c 65 2d    79a._sub._apple-
+0060: 6d 6f 62 64  65 76 32 04  5f 74 63 70  05 6c 6f 63    mobdev2._tcp.loc
+0070: 61 6c 00 00  0c 00 01 00  00 00 00 00  3c 39 33 34    al..........<934
+0080: 3a 66 65 3a  37 37 3a 62  63 3a 33 39  3a 30 64 40    :fe:77:bc:39:0d@
+0090: 66 65 38 30  3a 3a 33 36  66 65 3a 37  37 66 66 3a    fe80::36fe:77ff:
+00a0: 66 65 62 63  3a 33 39 30  64 2d 73 75  70 70 6f 72    febc:390d-suppor
+00b0: 74 73 52 50  2d 31 37 c0  1a c0 1a 00  0c 00 01 00    tsRP-17.........
+00c0: 00 00 00 00  02 c0 3f 00  00 29 05 a0  00 00 11 94    ......?..)......
+00d0: 00 12 00 04  00 0e 00 de  36 fe 77 bc  39 0d 0a 48    ........6.w.9..H
+00e0: 0d 1f a6 f5*                                          ...            
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 c0                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 98                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 cc                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 9f                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 ce                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 c0                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 d3                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673928class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11784)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 be                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c673bf4class org.jnetpcap.protocol.network.Ip4: size=32 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=12500)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: 00 00 00 00  00 00 c0 a8  01 9c                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 01 78 67  0e 4e b5 3f* 86 dd 60 08    33....xg.N.?..`.
+0010: d2 16 00 70  3a ff fe 80  00 00 00 00  00 00 7a 67    ...p:.........zg
+0020: 0e ff fe 4e  b5 3f ff 02  00 00 00 00  00 00 00 00    ...N.?..........
+0030: 00 00 00 00  00 01 86 00  ed eb 40 40  03 84 00 00    ..........@@....
+0040: 00 00 00 00  00 00 03 04  40 c0 00 00  03 84 00 00    ........@.......
+0050: 03 84 00 00  00 00 26 00  40 41 45 49  03 00 00 00    ......&.@AEI....
+0060: 00 00 00 00  00 00 18 03  38 08 00 00  03 84 26 00    ........8.....&.
+0070: 40 41 45 49  03 00 00 00  00 00 00 00  00 00 19 03    @AEI............
+0080: 00 00 00 00  02 58 26 00  40 41 45 49  03 00 00 00    .....X&.@AEI....
+0090: 00 00 00 00  00 01 05 01  00 00 00 00  05 dc 01 01    ................
+00a0: 78 67 0e 4e  b5 3f*                                   xg.N.?          
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 16 f8 b5  4d 6e df de* 86 dd 60 00    33......Mn....`.
+0010: 00 00 00 60  00 01 fe 80  00 00 00 00  00 00 9a 35    ...`...........5
+0020: 27 8f f2 d5  2b a0 ff 02  00 00 00 00  00 00 00 00    '...+...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: ef 2f 00 00  00 04 04 00  00 00 ff 02  00 00 00 00    ./..............
+0050: 00 00 00 00  00 01 ff 4c  96 12 04 00  00 00 ff 02    .......L........
+0060: 00 00 00 00  00 00 00 00  00 01 ff c5  d5 be 04 00    ................
+0070: 00 00 ff 02  00 00 00 00  00 00 00 00  00 00 00 00    ................
+0080: 00 fb 04 00  00 00 ff 02  00 00 00 00  00 00 00 00    ................
+0090: 00 01 ff d5  2b a0*                                   ....+.          
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 16 f8 b5  4d 6e df de* 86 dd 60 00    33......Mn....`.
+0010: 00 00 00 60  00 01 fe 80  00 00 00 00  00 00 9a 35    ...`...........5
+0020: 27 8f f2 d5  2b a0 ff 02  00 00 00 00  00 00 00 00    '...+...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: ef 2f 00 00  00 04 04 00  00 00 ff 02  00 00 00 00    ./..............
+0050: 00 00 00 00  00 01 ff 4c  96 12 04 00  00 00 ff 02    .......L........
+0060: 00 00 00 00  00 00 00 00  00 01 ff c5  d5 be 04 00    ................
+0070: 00 00 ff 02  00 00 00 00  00 00 00 00  00 00 00 00    ................
+0080: 00 fb 04 00  00 00 ff 02  00 00 00 00  00 00 00 00    ................
+0090: 00 01 ff d5  2b a0*                                   ....+.          
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@7f5c1c6757d0class org.jnetpcap.protocol.network.Ip4: size=12 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=19632)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 78 67  0e 4e b5 3f  08 06 00 01    ......xg.N.?....
+0010: 08 00 06 04  00 01 78 67  0e 4e b5 3f  c0 a8 01 01    ......xg.N.?....
+0020: ff ff ff ff  ff ff c0 a8  01 9a                       ..........      
+
+
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on pcap/dump.pcap
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 100
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 81
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:19 19 
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 19 seconds
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2023-05-06 20:41:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 23,18
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 18
+2023-05-06 20:41:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
